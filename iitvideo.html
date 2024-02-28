@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IIT Bombay Test</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .photos-container {
+    text-align: center;
+  }
+  .photos {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .photos img {
+    display: block;
+  }
+  .photo1 {
+    max-width: 40%; /* Adjust the width for the first photo */
+  
+  }
+  .photo2 {
+    max-width: 15%; /* Adjust the width for the second photo */
+  }
+  .content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .button {
+    width: calc(10% - 10px);
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 768px) {
+    .button {
+      width: calc(20% - 10px);
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .button {
+      width: calc(50% - 10px);
+    }
+    .photos img {
+      max-width: 100%;
+    }
+    .photo1 {
+      margin-right: 5px; /* Adjust the margin for smaller screens */
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Veena College - IIT Bombay Course Library</h1>
+    </div>
+    <div class="photos-container">
+      <div class="photos">
+        <img src="Veena-College-logo.png" alt="Photo 1" class="photo1">
+        <img src="IIT Bobay logo.png" alt="Photo 2" class="photo2">
+      </div>
+    </div>
+    <div class="content">
+      <h2>IIT Bombay Courses Video Lecture</h2>
+      <p></p>
+    </div>
+    <div class="buttons">
+        <a href="list-videos-English.html" class="button">Button 1</a>
+        <a href="https://example.com" class="button">Button 2</a>
+        <a href="https://example.com" class="button">Button 3</a>
+        <a href="https://example.com" class="button">Button 4</a>
+        <a href="https://example.com" class="button">Button 5</a>
+        <a href="https://example.com" class="button">Button 6</a>
+        <a href="https://example.com" class="button">Button 7</a>
+        <a href="https://example.com" class="button">Button 8</a>
+        <a href="https://example.com" class="button">Button 9</a>
+        <a href="https://example.com" class="button">Button 10</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
